@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.game-wrapper {
+  font-weight: bold;
+  width: 80%;
+  margin: 50px auto;
+  background: #28293d;
+  padding: 20px;
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.05);
+  border-radius: 5px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.game-details {
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(255 255 255 / 0.1);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.correct {
+  color: #3be28f;
+  animation: blinker 2s linear infinite;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.incorrect {
+  color: #f75d5d;
+  animation: blinker 2s linear infinite;
+}
+.game-inner {
+  width: 55%;
+  padding: 20px 0px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.country-flag {
+  width: auto;
+  height: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.choice {
+  cursor: pointer;
+  min-width: 350px;
+  font-size: 15px;
+  background: #2b2c44;
+  color: #6293f5;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  padding: 15px;
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.02);
+  -webkit-transition: .425s;
+	-o-transition: .425s;
+	transition: .425s;
+}
+.choice:hover {
+  background: #242539;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width: 1440px) {
+  .game-inner {
+    width: 90%;
+  }
+}
+@media (max-width: 834px) {
+  .game-inner {
+    width: 100%;
+  }
+  .game-quiz {
+    flex-direction: column;
+  }
+  .choice {
+    min-width: auto;
   }
 }

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/guess-the-flag/static/css/main.c0bf403c.chunk.css",
+    "main.js": "/guess-the-flag/static/js/main.64b2f5a7.chunk.js",
+    "main.js.map": "/guess-the-flag/static/js/main.64b2f5a7.chunk.js.map",
+    "runtime-main.js": "/guess-the-flag/static/js/runtime-main.8f56f7b9.js",
+    "runtime-main.js.map": "/guess-the-flag/static/js/runtime-main.8f56f7b9.js.map",
+    "static/js/2.a9255b5b.chunk.js": "/guess-the-flag/static/js/2.a9255b5b.chunk.js",
+    "static/js/2.a9255b5b.chunk.js.map": "/guess-the-flag/static/js/2.a9255b5b.chunk.js.map",
+    "static/js/3.d94d48ff.chunk.js": "/guess-the-flag/static/js/3.d94d48ff.chunk.js",
+    "static/js/3.d94d48ff.chunk.js.map": "/guess-the-flag/static/js/3.d94d48ff.chunk.js.map",
+    "index.html": "/guess-the-flag/index.html",
+    "static/css/main.c0bf403c.chunk.css.map": "/guess-the-flag/static/css/main.c0bf403c.chunk.css.map",
+    "static/js/2.a9255b5b.chunk.js.LICENSE.txt": "/guess-the-flag/static/js/2.a9255b5b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f56f7b9.js",
+    "static/js/2.a9255b5b.chunk.js",
+    "static/css/main.c0bf403c.chunk.css",
+    "static/js/main.64b2f5a7.chunk.js"
+  ]
+}
